@@ -7,6 +7,7 @@
   "author": "Carlos Henrique <carlos.henrique0307200@gmail.com>",
   "license": "MIT",
   "private": false,
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
@@ -14,7 +15,9 @@
   "dependencies": {
     "@discordjs/rest": "^1.0.0",
     "discord.js": "^14.0.3",
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.0",
+    "got": "^12.1.0",
+    "jsdom": "^20.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
